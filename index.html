@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SRISTI LOSALKA</title>
+
+
+    <!This line includes the Animate.css library, which provides a collection of cross-browser CSS animations. 
+    It allows you to easily add animations to your HTML elements without writing custom CSS animations.>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+
+     <!This line includes the Comfortaa font with a font-weight of 700 (bold) from Google Fonts.
+     It means that elements with the specified class or ID can use this font for styling.>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+
+
+    <!This line includes the jQuery library, which is a fast and feature-rich JavaScript library. It simplifies tasks like DOM manipulation, event handling, and AJAX requests. 
+    The integrity attribute is used for script integrity verification.>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+   
+    <!This line includes the Font Awesome library, which provides scalable vector icons that can be customized using CSS. 
+    The integrity attribute is used for stylesheet integrity verification.>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
+    <! this line links the css sheet>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+
+
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>SRISTI LOSALKA</h1>
+        <h2>COMPUTER SCIENCE STUDENT / SINGER / PLANT MOM</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.linkedin.com/in/sristi-losalka-77b95a291/" class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com" class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://github.com/sristil" class="social"><i class="fab fa-github"></i></a></td>
+                </tr>
+        </table>
+    </div>
+
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>recent projects</h1>
+        <section>
+            <h2>ICC STATS USING PYTHON</h2>
+            <p>
+                Absolutely thrilled to share the insights from my final project in the Data Analysis with Python course, where I dived into the fascinating world of ICC Men's Cricket World Cup statistics! 🏏<br>
+                In the realm of data analysis, every project is a journey, and this one has been nothing short of exhilarating. Thanks to the solid foundation laid during my B.Tech. data analysis using Python course, particularly under the guidance of experts like Ashwini Kumar Mathur, I've been able to apply those skills to dissect and make sense of the cricketing world.<br>
+                <br>
+                For this project, I delved into the rich dataset of the ICC Men's Cricket World Cup, exploring a myriad of statistics that go beyond the surface-level match results. From player performance metrics to team strategies, the dataset provided a treasure trove of information waiting to be uncovered.<br>
+                <br>
+                The project allowed me to flex my Python muscles, utilizing essential libraries such as Pandas, Seaborn, and Matplotlib. These tools weren't just lines of code; they were gateways to unlocking meaningful insights from the data.<br>
+                <br>
+                Collaboration has always been at the heart of effective data analysis. working with a dedicated team brought a dynamic range of skills to the table. From data cleaning challenges to tackling the intricacies of cricket statistics, our collective efforts ensured a robust and reliable analysis.<br>
+                <br>
+                If you're intrigued by the world of data analysis, let's connect! Whether you're a fellow enthusiast or someone looking to explore the benefits of a data analysis course, I'm here to share insights, tips, and the sheer joy of unraveling patterns hidden in data.<br>
+            </p>
+            <div id="used">
+              <div> <a href="https://www.linkedin.com/posts/sristi-losalka-77b95a291_github-yashmeetbaiddata-analysis-odi-word-cup-activity-7147129152838512640-UbCS?utm_source=share&utm_medium=member_desktop"> <i class="fab fa-linkedin"></i></a></div>
+            </div>
+
+        </section>
+    </div>
+
+
+
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about</h1>
+            <section>
+                
+                <div class="image-container">
+                    <img src="sristi.heic" alt="About Me Image" height="400" width="100">
+                </div>
+                <h2>about me</h2>
+                <p>
+                    I'm a first-year B.Tech Honours student majoring in Computer Science at RV University.
+                    My journey in the world of technology kicked off with a science-focused education at DPS,
+                    where I delved into the exciting realm of Artificial Intelligence.
+                </p>
+
+                <p>
+                    As a budding Computer Science enthusiast, I'm committed to developing my skills and staying on the cutting edge of technology.
+                    My academic pursuit at RV University is complemented by a deep-seated passion for exploring the vast possibilities that the world of the internet holds.
+                </p>
+
+                <p>
+                    While I embark on this exciting academic journey, I'm also keen on connecting with like-minded individuals,
+                    learning from diverse experiences, and embracing opportunities that allow me to contribute to the dynamic field of computer science.
+                </p>
+                
+            </section>
+            <section>
+                <h2>skills</h2>
+                <p>
+                    i do eveything ;
+                    <ul>
+                    <li>Presentations</li>
+                    <li>Strategy</li>
+                    <li>Design</li>
+                    <li>Figma (Software)</li>
+                    <li>Harmonium</li>
+                    <li>Artificial Intelligence (AI)</li>
+                    <li>JavaScript</li>
+                    <li>Cascading Style Sheets (CSS)</li>
+                    <li>HTML</li>
+                    <li>Problem Solving</li>
+                    <li>Research Skills</li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+
+
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+
+    <script src="index.js" type="text/javascript"></script>
+    <script src="app.js"></script>
+</body>
+</html>
