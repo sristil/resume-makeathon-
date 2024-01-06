@@ -1,15 +1,15 @@
 function showabout(){
     $("#about_container").css("display","inherit");
-    $("#about_container").addClass("animated slideInLeft");
+    $("#about_container").addClass("animated slideInLeft");//makes the page slide into the left side
     setTimeout(function(){
-        $("#about_container").removeClass("animated slideInLeft");
+        $("#about_container").removeClass("animated slideInLeft");// closes animation in 800 seconds
     },800);
 }
 function closeabout(){
     $("#about_container").addClass("animated slideOutLeft");
     setTimeout(function(){
         $("#about_container").removeClass("animated slideOutLeft");
-        $("#about_container").css("display","none");
+        $("#about_container").css("display","none");// hides the display after animation 
     },800);
 }
 function showwork(){
@@ -41,7 +41,7 @@ function closecontact(){
     },800);
 }
 setTimeout(function(){
-    $("#loading").addClass("animated fadeOut");
+    $("#loading").addClass("animated fadeOut");// works for the animation 
     setTimeout(function(){
       $("#loading").removeClass("animated fadeOut");
       $("#loading").css("display","none");
