@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio project repository! This project showcases my skills, projects, and achievements in a sleek and interactive way.
 
+live demo: https://sristil.github.io/resume-makeathon-/
+
 ## Features 📋
 
 ⚡️ **Fully Responsive**: Ensuring a seamless experience across devices.
